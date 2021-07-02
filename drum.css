@@ -1,0 +1,50 @@
+html {
+    font-size: 10px;
+    background-image: url(./dj.jpg);
+    background-size:cover;
+  }
+  
+  body,html {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  kbd {
+    font-size: 4rem;
+    display: block;
+  }
+  .key {
+    border: .2rem solid rgb(53, 7, 7);
+    border-radius: 10rem;
+    font-size: 1.3rem;
+    padding: 1rem 1rem;
+    text-align: center;
+    color: white;
+    background: rgba(195, 223, 36, 0.4);
+    text-shadow: 0 0 .5rem black;
+    margin: 2rem;
+    width: 6rem;
+    transition: all .7s ease;           
+  }
+  
+  .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: crimson;
+  }
+  .playing {
+    transform: scale(1.1);
+    border-color: crimson;
+    box-shadow: 0 0 1rem crimson;
+  }
